@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Mes réseaux</title>
-  <!-- Lien vers Font Awesome -->
+  <!-- Font Awesome pour les icônes -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
@@ -32,38 +32,46 @@
       margin: 15px;
       padding: 15px 30px;
       width: 250px;
-      background: rgba(0, 0, 0, 0.6);
       color: #fff;
       text-decoration: none;
       border-radius: 12px;
-      transition: all 0.3s ease;
       font-size: 1.2em;
-    }
-    .link:hover {
-      background: rgba(0, 120, 255, 0.8);
-      transform: scale(1.05);
+      transition: all 0.3s ease;
     }
     .link i {
       font-size: 1.5em;
     }
+
+    /* Couleurs officielles */
+    .instagram { background: linear-gradient(45deg, #feda75, #d62976, #962fbf, #4f5bd5); }
+    .instagram:hover { transform: scale(1.05); }
+
+    .tiktok { background: #000000; }
+    .tiktok:hover { background: #25f4ee; color: #000; transform: scale(1.05); }
+
+    .youtube { background: #ff0000; }
+    .youtube:hover { background: #cc0000; transform: scale(1.05); }
+
+    .snapchat { background: #fffc00; color: #000; }
+    .snapchat:hover { background: #ffe600; transform: scale(1.05); }
   </style>
 </head>
 <body>
   <h1>🌙 Mes réseaux</h1>
   
-  <a class="link" href="https://instagram.com/tonpseudo" target="_blank">
+  <a class="link instagram" href="https://instagram.com/tonpseudo" target="_blank">
     <i class="fab fa-instagram"></i> Instagram
   </a>
   
-  <a class="link" href="https://tiktok.com/@tonpseudo" target="_blank">
+  <a class="link tiktok" href="https://tiktok.com/@tonpseudo" target="_blank">
     <i class="fab fa-tiktok"></i> TikTok
   </a>
   
-  <a class="link" href="https://youtube.com/@tonpseudo" target="_blank">
+  <a class="link youtube" href="https://youtube.com/@tonpseudo" target="_blank">
     <i class="fab fa-youtube"></i> YouTube
   </a>
   
-  <a class="link" href="https://snapchat.com/add/tonpseudo" target="_blank">
+  <a class="link snapchat" href="https://snapchat.com/add/tonpseudo" target="_blank">
     <i class="fab fa-snapchat"></i> Snapchat
   </a>
 
